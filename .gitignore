@@ -1,0 +1,26 @@
+# Local secrets and generated files
+.env
+.env.*
+!.env.example
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+kubeconfig
+*.pem
+*.key
+*.p12
+*.pfx
+token.txt
+report.html
+sbom.spdx.json
+trivy*.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

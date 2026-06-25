@@ -1,0 +1,28 @@
+schema_version: 1
+project:
+  number: 2
+  slug: ecs-fargate-terraform-github-actions
+  name: ECS Fargate CI/CD with Terraform and GitHub Actions
+classification: deployable
+status: cloud_lab
+deployability: ci_cd_ready
+stack:
+  - Python
+  - Flask
+  - Docker
+  - Amazon ECS
+  - AWS Fargate
+  - Amazon ECR
+  - Application Load Balancer
+  - CloudWatch
+cloud:
+  - aws
+iac:
+  - terraform
+ci_cd:
+  - github-actions
+cost_risk: medium
+security_posture: baseline
+validation:
+  command: terraform -chdir=terraform fmt -check
+notes: Corrected to use ECS Fargate launch type, awsvpc networking, ALB target group, ECR, and GitHub Actions deployment workflow.

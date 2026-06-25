@@ -1,0 +1,16 @@
+.git
+.github
+.terraform
+*.tfstate
+*.tfstate.*
+.env
+.env.*
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+venv
+docs
+README.md
+REPO_UPLOAD_CHECKLIST.md
+PROJECT_REVIEW_NOTES.md
