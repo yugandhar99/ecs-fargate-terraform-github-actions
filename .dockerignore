@@ -1,5 +1,6 @@
 .git
 .github
+
 .terraform
 *.tfstate
 *.tfstate.*
