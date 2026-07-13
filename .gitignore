@@ -1,4 +1,5 @@
 # Local secrets and generated files
+
 .env
 .env.*
 !.env.example
