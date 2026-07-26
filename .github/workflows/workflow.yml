@@ -1,4 +1,4 @@
-name: Build and Dep loy to ECS Fargate
+name: Build and Deploy to ECS Fargate
 on:
   
   workflow_dispatch:
