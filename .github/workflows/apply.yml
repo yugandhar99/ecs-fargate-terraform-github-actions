@@ -1,7 +1,7 @@
 name: Terraform Apply
 on:
   workflow_dispatch:
- 
+
 jobs:
   terraform:
     name: Provision ECS Fargate Infrastructure
