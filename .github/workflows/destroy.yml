@@ -1,7 +1,7 @@
 name: Terraform Destroy
 on:
   workflow_dispatch:
- 
+
 jobs:
   destroy:
     name: Destroy ECS Fargate Infrastructure
