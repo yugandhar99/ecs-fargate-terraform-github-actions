@@ -1,5 +1,5 @@
 name: Build and Deploy to ECS Fargate
-on:
+on: 
 
   workflow_dispatch:
 
