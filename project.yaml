@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 1 
 project:
   number: 2
   slug: ecs-fargate-terraform-github-actions
