@@ -1,4 +1,4 @@
-"""Simple Flask service for ECS Fargate deployment.""" 
+"""Simple Flask service for ECS Fargate deployment."""
 import os
 import socket
 from flask import Flask, jsonify
