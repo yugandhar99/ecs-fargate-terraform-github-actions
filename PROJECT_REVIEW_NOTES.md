@@ -1,4 +1,4 @@
-# Project Review Notes 
+# Project Review Notes
 
 Repository: `ecs-fargate-terraform-github-actions`
 
